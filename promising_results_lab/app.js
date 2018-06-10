@@ -20,10 +20,10 @@ slowMath.add(6, 2).then(function(value) {
                             })
                         })
                     })
-                }).catch(function(error) {
-                    console.log(error);
                 })
             })
         })
     })
+}).catch(function(error) {
+    console.log(error);
 });
